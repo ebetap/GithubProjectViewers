@@ -1,4 +1,7 @@
-# armilary
+# Github Users Project Readme
+
+# Prerequisite
+Install Node.js
 
 ## Project setup
 ```

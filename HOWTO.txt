@@ -1,0 +1,38 @@
+Prerequisite
+1. Has installed node.js
+
+Setup Project
+1. open terminal
+2. go to project folder
+3. npm install or yarn install then hit enter (wait untill the process done).
+
+RUN PROJECT IN DEVELOPMENT MODE
+NPM
+npm run serve
+
+YARN
+yarn serve
+
+then open the link that appears in the terminal
+
+BUILD PROJECT
+NPM
+npm run build
+
+YARN
+yarn build
+
+*it will generate static files in dist/ folder. But you can't open it direclty,
+you must use http-server or your own file server. i have linking the http-server dependency to serve the static files,
+you can use it by typing http-server dist/ in your terminal then hit enter to serve the static files.
+
+BUILD PROJECT THEN SERVE THE STATIC FILES[RECOMMENDED TO RUN PROJECT EASILY]
+NPM
+npm run build-serve
+
+*it will build the project and generate into dist/ folder then server it with http-server
+
+YARN
+yarn build-serve
+
+*NOTE: The request to Github API is limited for 60 times in 1 hour, because this project using the API without Authorization.
